@@ -1,0 +1,20 @@
+hostname: R2
+uplink_interface: GigabitEthernet2/0
+interfaces:
+  g2/0.10:
+    description: GW VLAN 10 - Bat D
+    encapsulation: dot1q 10
+    ip_address: 172.16.50.254
+    subnet_mask: 255.255.255.0
+  g2/0.20:
+    description: GW VLAN 20 - Bat D
+    encapsulation: dot1q 20
+    ip_address: 172.16.60.254
+    subnet_mask: 255.255.255.0
+  g2/0.99:
+    description: Mgmt VLAN 99 - Bat D
+    encapsulation: dot1q 99
+    ip_address: 172.16.100.254
+    subnet_mask: 255.255.255.192
+routing:
+  static_routes: []
