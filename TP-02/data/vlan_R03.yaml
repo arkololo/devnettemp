@@ -1,0 +1,13 @@
+hostname: R3
+uplink_interface: GigabitEthernet0/0
+interfaces:
+  g0/0.10:
+    description: GW VLAN 10
+    encapsulation: dot1q 10
+    ip_address: 172.16.50.254
+    subnet_mask: 255.255.255.0
+  g0/0.20:
+    description: GW VLAN 20
+    encapsulation: dot1q 20
+    ip_address: 172.16.60.254
+    subnet_mask: 255.255.255.0

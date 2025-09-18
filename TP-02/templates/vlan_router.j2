@@ -1,0 +1,16 @@
+hostname {{ hostname }}
+
+!
+! === Router-on-a-stick subinterfaces ===
+interface {{ uplink_interface | default('GigabitEthernet0/0') }}
+ no shutdown
+{% for name,iface in interfaces.items() %}
+interface {{ name | replace('g', 'GigabitEthernet') if name.startswith('g') else name }}
+ description {{ iface.description }}
+ encapsulation {{ iface.encapsulation }}
+ ip address {{ iface.ip_address }} {{ iface.subnet_mask }}
+ no shutdown
+{% endfor %}
+
+!
+end

@@ -1,0 +1,12 @@
+hostname: ESW3
+vlans:
+  - id: 10
+    name: Teacher
+    access_ports: ["f1/1"]
+  - id: 20
+    name: Student
+    access_ports: ["f1/2"]
+trunks:
+  - interface: "f1/0"
+    allowed_vlans: [10, 20, 99]
+

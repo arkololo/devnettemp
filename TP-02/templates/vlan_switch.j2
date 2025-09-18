@@ -1,0 +1,31 @@
+hostname {{ hostname }}
+
+!
+! === VLANs ===
+{% for v in vlans %}
+vlan {{ v.id }}
+ name {{ v.name }}
+{% endfor %}
+
+!
+! === Access ports ===
+{% for v in vlans if v.access_ports %}
+{% for p in v.access_ports %}
+interface {{ p | replace('f', 'FastEthernet') }}
+ switchport mode access
+ switchport access vlan {{ v.id }}
+ no shutdown
+{% endfor %}
+{% endfor %}
+
+!
+! === Trunks ===
+{% for t in trunks %}
+interface {{ t.interface | replace('f', 'FastEthernet') }}
+ switchport mode trunk
+ switchport trunk allowed vlan add {{ t.allowed_vlans | join(',') }}
+ no shutdown
+{% endfor %}
+
+!
+end
