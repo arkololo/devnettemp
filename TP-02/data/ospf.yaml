@@ -1,0 +1,36 @@
+routers:
+  - hostname: R1
+    site: CPE-LYON
+    process_id: 1
+    router_id: 1.1.1.1
+    active_interfaces: ["Serial1/0", "Serial1/1"]   # voisinages
+    networks:
+      - { network: 172.16.10.0,     wildcard: 0.0.0.255, area: 0 }   # /24
+      - { network: 172.16.20.0,     wildcard: 0.0.0.255, area: 0 }   # /24
+      - { network: 172.16.100.0,    wildcard: 0.0.0.63,  area: 0 }   # /26 admin
+      - { network: 10.1.1.0,        wildcard: 0.0.0.3,   area: 0 }   # /30 R1–R2
+      - { network: 10.1.3.0,        wildcard: 0.0.0.3,   area: 0 }   # /30 R1–R3
+
+  - hostname: R2
+    site: CPE-MARSEILLE
+    process_id: 1
+    router_id: 2.2.2.2
+    active_interfaces: ["Serial1/0", "Serial1/2"]   # PAS S1/1
+    networks:
+      - { network: 172.16.30.0,     wildcard: 0.0.0.255, area: 0 }
+      - { network: 172.16.40.0,     wildcard: 0.0.0.255, area: 0 }
+      - { network: 172.16.100.64,   wildcard: 0.0.0.63,  area: 0 }   # /26 admin
+      - { network: 10.1.1.0,        wildcard: 0.0.0.3,   area: 0 }   # /30 R2–R1
+      - { network: 10.1.2.0,        wildcard: 0.0.0.3,   area: 0 }   # /30 R2–R3
+
+  - hostname: R3
+    site: CPE-PARIS
+    process_id: 1
+    router_id: 3.3.3.3
+    active_interfaces: ["Serial1/1", "Serial1/2"]
+    networks:
+      - { network: 172.16.50.0,     wildcard: 0.0.0.255, area: 0 }
+      - { network: 172.16.60.0,     wildcard: 0.0.0.255, area: 0 }
+      - { network: 172.16.100.192,  wildcard: 0.0.0.63,  area: 0 }   # /26 admin
+      - { network: 10.1.2.0,        wildcard: 0.0.0.3,   area: 0 }   # /30 R3–R2
+      - { network: 10.1.3.0,        wildcard: 0.0.0.3,   area: 0 }   # /30 R3–R1
