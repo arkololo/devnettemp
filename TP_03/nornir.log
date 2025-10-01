@@ -1,0 +1,103 @@
+2025-10-01 11:18:30,107 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:21:15,080 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:21:15,092 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:21:24,567 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:21:24,571 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:26:46,603 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:26:46,606 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:26:57,807 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:26:57,810 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:09,827 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:09,829 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:26,279 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:26,282 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:26,283 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:36,039 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:36,048 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:27:36,051 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:29:51,032 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:29:51,034 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:29:51,036 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:20,480 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:20,495 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:20,500 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:43,383 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:43,388 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:43,392 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:39:43,398 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 4 hosts
+2025-10-01 11:41:01,572 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:41:01,576 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:41:01,580 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:41:01,588 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 11:42:13,538 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:13,546 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:13,548 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:30,452 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:30,456 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:30,457 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:46,594 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:46,597 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:42:46,599 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:43:12,750 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:43:12,755 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:43:12,757 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:43:12,760 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 11:47:11,966 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:47:11,968 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:47:11,970 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:47:11,975 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 11:47:11,977 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-01 11:52:48,995 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:52:49,001 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:52:49,005 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:52:49,008 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 11:52:49,010 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-01 11:52:51,570 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table\t']} on 2 hosts
+2025-10-01 11:52:54,534 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-A': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IOSDriver' object has no attribute 'get_arp_table	'. Did you mean: 'get_arp_table'?
+
+2025-10-01 11:52:55,683 - nornir.core.task -    ERROR -      start() - Host 'ESW1-CPE-BAT-B': task 'napalm_get' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_napalm/plugins/tasks/napalm_get.py", line 43, in napalm_get
+    method = getattr(device, getter)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IOSDriver' object has no attribute 'get_arp_table	'. Did you mean: 'get_arp_table'?
+
+2025-10-01 11:53:05,239 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:53:05,242 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:53:05,244 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 11:53:05,247 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 11:53:05,255 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-01 11:53:07,854 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
+2025-10-01 12:04:14,285 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:04:14,295 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:04:14,300 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:04:14,310 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 12:04:14,318 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-01 12:04:17,182 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
+2025-10-01 12:05:56,133 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:05:56,141 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:05:56,156 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:05:56,159 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 12:05:56,160 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-01 12:05:58,651 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
+2025-10-01 12:06:01,326 -  nornir.core -  WARNING -        run() - Task 'napalm_configure' has not been run – 0 hosts selected
+2025-10-01 12:06:01,326 -  nornir.core -  WARNING -        run() - Task 'napalm_configure' has not been run – 0 hosts selected
+2025-10-01 12:09:26,014 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:09:26,024 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:09:26,026 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-01 12:09:26,027 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-01 12:09:26,031 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-01 12:09:28,876 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
+2025-10-01 12:09:31,833 -  nornir.core -  WARNING -        run() - Task 'napalm_configure' has not been run – 0 hosts selected
+2025-10-01 12:09:31,833 -  nornir.core -  WARNING -        run() - Task 'napalm_configure' has not been run – 0 hosts selected
