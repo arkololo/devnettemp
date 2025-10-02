@@ -101,3 +101,587 @@ AttributeError: 'IOSDriver' object has no attribute 'get_arp_table	'. Did you me
 2025-10-01 12:09:28,876 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
 2025-10-01 12:09:31,833 -  nornir.core -  WARNING -        run() - Task 'napalm_configure' has not been run – 0 hosts selected
 2025-10-01 12:09:31,833 -  nornir.core -  WARNING -        run() - Task 'napalm_configure' has not been run – 0 hosts selected
+2025-10-02 08:12:19,458 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:12:19,461 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:12:19,462 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:12:19,466 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:12:19,469 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-02 08:12:22,398 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
+2025-10-02 08:13:03,244 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:13:03,252 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:13:03,253 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:13:03,256 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:13:03,257 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['show ip interface brief']} on 4 hosts
+2025-10-02 08:13:06,415 -  nornir.core -     INFO -        run() - Running task 'napalm_get' with args {'getters': ['get_arp_table']} on 2 hosts
+2025-10-02 08:13:09,796 -  nornir.core -     INFO -        run() - Running task 'Create Loopback1 on R1' with args {'configuration': 'interface Loopback1\n description Q34 R1\n ip address 1.1.1.1 255.255.255.255\n no shutdown\n'} on 1 hosts
+2025-10-02 08:13:23,106 -  nornir.core -     INFO -        run() - Running task 'Create Loopback1 on R2' with args {'configuration': 'interface Loopback1\n description Q34 R2\n ip address 2.2.2.2 255.255.255.255\n no shutdown\n'} on 1 hosts
+2025-10-02 08:21:05,343 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:21:05,346 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:21:05,355 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:21:05,358 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:21:05,359 -  nornir.core -     INFO -        run() - Running task 'napalm_cli' with args {'commands': ['write memory']} on 6 hosts
+2025-10-02 08:24:13,673 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:24:13,678 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:24:13,681 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:24:13,685 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:24:13,686 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show ip interface brief'} on 4 hosts
+2025-10-02 08:33:46,458 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:33:46,460 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:33:46,462 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:33:46,466 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:33:46,467 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface Loopback2', 'ip address 11.11.11.11 255.255.255.255', 'description Loopback2 depuis Netmiko', 'no shutdown']} on 1 hosts
+2025-10-02 08:33:47,701 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_commands': ['interface Loopback2', 'ip address 22.22.22.22 255.255.255.255', 'description Loopback2 depuis Netmiko', 'no shutdown']} on 1 hosts
+2025-10-02 08:40:09,958 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:40:09,960 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:40:09,962 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:40:09,964 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:40:09,967 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {'config_commands': 'write memory'} on 4 hosts
+2025-10-02 08:40:09,975 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-A': task 'netmiko_save_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_save_config() got an unexpected keyword argument 'config_commands'
+
+2025-10-02 08:40:09,976 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'netmiko_save_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_save_config() got an unexpected keyword argument 'config_commands'
+
+2025-10-02 08:40:09,976 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'netmiko_save_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_save_config() got an unexpected keyword argument 'config_commands'
+
+2025-10-02 08:40:09,976 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'netmiko_save_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: netmiko_save_config() got an unexpected keyword argument 'config_commands'
+
+2025-10-02 08:42:09,544 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:42:09,547 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:42:09,577 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:42:09,608 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:42:09,617 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 08:42:57,883 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:42:57,887 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:42:57,889 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 08:42:57,893 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 08:42:57,894 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 09:05:21,717 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:05:21,719 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:05:21,722 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:05:21,724 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 09:05:21,728 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/R1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2025-10-02 09:05:23,570 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 09:05:23,957 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/R1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2025-10-02 09:05:30,934 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 09:05:31,615 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/R2_CPE_LYON_BAT_A.conf'} on 1 hosts
+2025-10-02 09:05:37,688 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 09:05:38,219 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/R2_CPE_LYON_BAT_B.conf'} on 1 hosts
+2025-10-02 09:05:46,276 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 09:05:46,874 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ESW1_CPE_LYON_BAT_A.conf'} on 1 hosts
+2025-10-02 09:05:55,268 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 09:05:56,794 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ESW1_CPE_LYON_BAT_B.conf'} on 1 hosts
+2025-10-02 09:06:06,571 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 09:36:50,401 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:36:50,403 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:36:50,419 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:36:50,422 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 09:36:50,424 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:36:51,751 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:36:53,567 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:36:55,977 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:38:21,243 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:38:21,246 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:38:21,248 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 09:38:21,252 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 09:38:21,255 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:38:22,526 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:38:24,844 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 09:38:27,160 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_command' with args {'command_string': 'show vrrp brief'} on 1 hosts
+2025-10-02 10:03:01,331 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:03:01,333 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:03:01,336 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:03:01,345 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 10:05:04,052 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:05:04,054 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:05:04,056 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:05:04,060 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 10:05:42,576 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:05:42,577 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:05:42,579 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:05:42,581 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 10:05:42,592 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-A.conf'} on 1 hosts
+2025-10-02 10:05:44,038 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 10:05:44,470 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-A.conf'} on 1 hosts
+2025-10-02 10:05:48,260 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 10:05:48,792 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-B.conf'} on 1 hosts
+2025-10-02 10:06:19,674 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 483, in connect
+    self._auth(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 814, in _auth
+    raise saved_exception
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 801, in _auth
+    self._transport.auth_password(username, password)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/transport.py", line 1632, in auth_password
+    return self.auth_handler.wait_for_response(my_event)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/auth_handler.py", line 252, in wait_for_response
+    raise AuthenticationException("Authentication timeout.")
+paramiko.ssh_exception.AuthenticationException: Authentication timeout.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1183, in establish_connection
+    raise NetmikoAuthenticationException(msg)
+netmiko.exceptions.NetmikoAuthenticationException: Authentication to device failed.
+
+Common causes of this problem are:
+1. Invalid username and password
+2. Incorrect SSH-key file
+3. Connecting to the wrong device
+
+Device settings: cisco_ios 172.16.100.189:22
+
+
+Authentication timeout.
+
+2025-10-02 10:06:19,675 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 10:06:19,676 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-B.conf'} on 1 hosts
+2025-10-02 10:06:19,688 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 407, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 172.16.100.190
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1168, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.190:22
+
+
+
+2025-10-02 10:06:19,688 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 10:21:30,593 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:21:30,595 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:21:30,597 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:21:30,601 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 10:21:52,263 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:21:52,265 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:21:52,267 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:21:52,269 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 10:21:52,280 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-A.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 10:21:56,131 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 10:21:57,718 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-A.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 10:22:07,739 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 384, in connect
+    sock.connect(addr)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1168, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.126:22
+
+
+
+2025-10-02 10:22:07,747 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 10:22:07,749 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-B.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 10:22:10,824 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 407, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 172.16.100.189
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1168, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.189:22
+
+
+
+2025-10-02 10:22:10,829 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 10:22:10,831 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-B.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 10:22:13,892 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 407, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 172.16.100.190
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1168, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.190:22
+
+
+
+2025-10-02 10:22:13,893 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 10:27:59,789 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:27:59,796 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:27:59,804 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 10:27:59,808 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 10:27:59,811 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-B.conf', 'cmd_verify': False, 'delay_factor': 2, 'max_loops': 100} on 1 hosts
+2025-10-02 10:28:02,886 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 407, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 172.16.100.189
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1168, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.189:22
+
+
+
+2025-10-02 10:28:02,887 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 10:28:02,888 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-B.conf', 'cmd_verify': False, 'delay_factor': 2, 'max_loops': 100} on 1 hosts
+2025-10-02 10:28:05,959 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1146, in establish_connection
+    self.remote_conn_pre.connect(**ssh_connect_params)
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/paramiko/client.py", line 407, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 172.16.100.190
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 28, in netmiko_send_config
+    net_connect = task.host.get_connection(CONNECTION_NAME, task.nornir.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 476, in get_connection
+    self.open_connection(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/inventory.py", line 528, in open_connection
+    conn_obj.open(
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/connections/netmiko.py", line 59, in open
+    connection = ConnectHandler(**parameters)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/ssh_dispatcher.py", line 460, in ConnectHandler
+    return ConnectionClass(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 495, in __init__
+    self._open()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 500, in _open
+    self.establish_connection()
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 1168, in establish_connection
+    raise NetmikoTimeoutException(msg)
+netmiko.exceptions.NetmikoTimeoutException: TCP connection to device failed.
+
+Common causes of this problem are:
+1. Incorrect hostname or IP address.
+2. Wrong TCP port.
+3. Intermediate firewall blocking access.
+
+Device settings: cisco_ios 172.16.100.190:22
+
+
+
+2025-10-02 10:28:05,960 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 11:13:37,991 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 11:13:37,994 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 11:13:37,995 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 6 hosts
+2025-10-02 11:13:37,998 -  nornir.core -     INFO -        run() - Running task 'hello_world' with args {} on 2 hosts
+2025-10-02 11:13:38,004 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-A.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 11:13:42,051 -  nornir.core -     INFO -        run() - Running task 'netmiko_save_config' with args {} on 1 hosts
+2025-10-02 11:13:43,312 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-A.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 11:13:46,861 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-A': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 40, in netmiko_send_config
+    result = net_connect.send_config_from_file(config_file=config_file, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 2188, in send_config_from_file
+    return self.send_config_set(commands, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 2328, in send_config_set
+    output += self.read_channel_timing(read_timeout=read_timeout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 832, in read_channel_timing
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+read_channel_timing's absolute timer expired.
+
+The network device was continually outputting data for longer than 1.5
+seconds.
+
+If this is expected i.e. the command you are executing is continually emitting
+data for a long period of time, then you can set 'read_timeout=x' seconds. If
+you want Netmiko to keep reading indefinitely (i.e. to only stop when there is
+no new data), then you can set 'read_timeout=0'.
+
+You can look at the Netmiko session_log or debug log for more information.
+
+
+
+2025-10-02 11:13:46,863 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 11:13:46,868 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R1-CPE-BAT-B.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 11:13:50,935 - nornir.core.task -    ERROR -      start() - Host 'R1-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 40, in netmiko_send_config
+    result = net_connect.send_config_from_file(config_file=config_file, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 2188, in send_config_from_file
+    return self.send_config_set(commands, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 2328, in send_config_set
+    output += self.read_channel_timing(read_timeout=read_timeout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 832, in read_channel_timing
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+read_channel_timing's absolute timer expired.
+
+The network device was continually outputting data for longer than 1.5
+seconds.
+
+If this is expected i.e. the command you are executing is continually emitting
+data for a long period of time, then you can set 'read_timeout=x' seconds. If
+you want Netmiko to keep reading indefinitely (i.e. to only stop when there is
+no new data), then you can set 'read_timeout=0'.
+
+You can look at the Netmiko session_log or debug log for more information.
+
+
+
+2025-10-02 11:13:50,936 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected
+2025-10-02 11:13:50,937 -  nornir.core -     INFO -        run() - Running task 'netmiko_send_config' with args {'config_file': 'config/ospf_R2-CPE-BAT-B.conf', 'cmd_verify': False, 'delay_factor': 2} on 1 hosts
+2025-10-02 11:13:55,196 - nornir.core.task -    ERROR -      start() - Host 'R2-CPE-BAT-B': task 'netmiko_send_config' failed with traceback:
+Traceback (most recent call last):
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir/core/task.py", line 98, in start
+    r = self.task(self, **self.params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/nornir_netmiko/tasks/netmiko_send_config.py", line 40, in netmiko_send_config
+    result = net_connect.send_config_from_file(config_file=config_file, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 2188, in send_config_from_file
+    return self.send_config_set(commands, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 111, in wrapper_decorator
+    return_val = func(self, *args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 2328, in send_config_set
+    output += self.read_channel_timing(read_timeout=read_timeout)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/cpe/.local/share/virtualenvs/TP_03-khcHFeCv/lib/python3.12/site-packages/netmiko/base_connection.py", line 832, in read_channel_timing
+    raise ReadTimeout(msg)
+netmiko.exceptions.ReadTimeout: 
+
+read_channel_timing's absolute timer expired.
+
+The network device was continually outputting data for longer than 1.5
+seconds.
+
+If this is expected i.e. the command you are executing is continually emitting
+data for a long period of time, then you can set 'read_timeout=x' seconds. If
+you want Netmiko to keep reading indefinitely (i.e. to only stop when there is
+no new data), then you can set 'read_timeout=0'.
+
+You can look at the Netmiko session_log or debug log for more information.
+
+
+
+2025-10-02 11:13:55,198 -  nornir.core -  WARNING -        run() - Task 'netmiko_save_config' has not been run – 0 hosts selected

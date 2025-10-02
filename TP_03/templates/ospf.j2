@@ -1,0 +1,11 @@
+! OSPF backbone for {{ hostname }} ({{ site }})
+router ospf {{ process_id }}
+ router-id {{ router_id }}
+ passive-interface default
+{% for iface in active_interfaces %}
+ no passive-interface {{ iface }}
+{% endfor %}
+{% for n in networks %}
+ network {{ n.network }} {{ n.wildcard }} area {{ n.area|default(0) }}
+{% endfor %}
+!
