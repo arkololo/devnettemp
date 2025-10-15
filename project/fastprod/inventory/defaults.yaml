@@ -1,0 +1,9 @@
+username: cisco
+password: cisco
+defaults:
+  connection_options:
+    netmiko:
+      extras:
+        secret: cisco          # enable
+        fast_cli: false
+        session_log: logs/{{ host }}_session.log
